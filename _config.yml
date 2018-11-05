@@ -1,0 +1,26 @@
+title: Rhia Catapano
+url: "https://rhiacatapano.com"
+baseurl: ""
+
+markdown: kramdown
+
+favicon: yes
+favicon_location: rhia_favicon.ico
+
+tracking_id: #
+
+footer: yes
+footer_url: "rhiac@stanford.edu"
+footer_text: "Rhia Catapano, 2018"
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "Home"
+   link: "/"
+ - name: "Research"
+   link: "research"
+ - name: "CV"
+   link: "https://drive.google.com/open?id=1AafdtpmqP8gUw2Ywk7aHsxYEBGDnqOaa"
