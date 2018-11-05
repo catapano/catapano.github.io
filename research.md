@@ -41,5 +41,3 @@ Catapano, R.\*, Shennib, F.\*, and Levav, J. Preference Reversals in Willingness
 Catapano, R., Hardisty, D., and Aaker, J. Moments that Last: Meaningfulness Slows Happiness Decay (4 studies completed).
 
 Catapano, R., Cheatham, L., and Tormala, Z. The Effects of Attitude Framing on Advocacy. (3 studies completed)
-
-Catapano, R., Aaker, J., and Liu, W. The Role of Meaning in Repeat Experiences and Choice. (2 studies completed)
