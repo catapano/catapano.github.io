@@ -36,8 +36,8 @@ Converge for Low Income Individuals. (Submitted to Nature Human Behavior).
 
 ## Work in Progress
 
+Catapano, R. and Tormala, Z. The Effects of Attitude Framing on Advocacy. (3 studies completed)
+
 Catapano, R.\*, Shennib, F.\*, and Levav, J. Preference Reversals in Willingness to Pay and Choice (8 studies completed). (*equal contribution)
 
 Catapano, R., Hardisty, D., and Aaker, J. Moments that Last: Meaningfulness Slows Happiness Decay (4 studies completed).
-
-Catapano, R., Cheatham, L., and Tormala, Z. The Effects of Attitude Framing on Advocacy. (3 studies completed)
