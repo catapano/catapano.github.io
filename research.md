@@ -38,7 +38,7 @@ Shennib, F.\*, **Catapano, R.\***, and Levav, J. Preference Reversals in Willing
 
 **Catapano, R.** and Tormala, Z. Do I Support that It's Good or Oppose that It's Bad? The Effect of Attitude Framing on Sharing Behavior. (In preparation, manuscript available on request)
 
-## Selected Words in Progress
+## Selected Work in Progress
 
 **Catapano, R.** and Tormala, Z. Perceptions of Support- and Oppose- Framed Attitudes.
 
