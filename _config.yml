@@ -10,8 +10,8 @@ favicon_location: rhia_favicon.ico
 tracking_id: #
 
 footer: yes
-footer_url: "rhiac@rotman.utoronto.ca"
-footer_text: "Rhia Catapano, 2022"
+footer_url: "rhia.catapano@rotman.utoronto.ca"
+footer_text: "Rhia Catapano, 2023"
 
 sass:
     style: compressed
