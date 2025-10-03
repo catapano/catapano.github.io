@@ -11,7 +11,7 @@ tracking_id: #
 
 footer: yes
 footer_url: "rhia.catapano@rotman.utoronto.ca"
-footer_text: "Rhia Catapano, 2023"
+footer_text: "Rhia Catapano, 2025"
 
 sass:
     style: compressed
@@ -23,4 +23,4 @@ nav:
  - name: "Research"
    link: "https://discover.research.utoronto.ca/12137-rhia-catapano/publications"
  - name: "CV"
-   link: "https://drive.google.com/file/d/1dOHHbkqQehtndxR7z1QBo5P7IpmCImlV/view"
+   link: "https://drive.google.com/file/d/1xV7UP59Gupb_W_J_uidvNZp4sA3iVdEX/view"
