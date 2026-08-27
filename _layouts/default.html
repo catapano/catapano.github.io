@@ -59,7 +59,7 @@
             <a id="author-name" class="alignable pull-left" href="{{ site.baseurl }}">{{ site.title }}</a>
             <ul id="navlist" class="alignable pull-right navbar-ul">
                 {% for x in site.nav %}
-                    {% if x.name == "CV" %}
+                    {% if x.name == "CV" or x.name == "Research" %}
                         <li class="alignable pull-left nav-list"><a target="_blank" href="{{ x.link }}">{{ x.name }}</a>
                     {% else %}
                         <li class="alignable pull-left nav-list"><a href="{{ x.link }}">{{ x.name }}  </a>
