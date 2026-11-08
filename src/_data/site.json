@@ -1,0 +1,9 @@
+{
+  "title": "Rhia Catapano",
+  "url": "https://www.rhiacatapano.com",
+  "description": "Rhia Catapano is an Assistant Professor of Marketing at the Rotman School of Management, University of Toronto.",
+  "nav": [
+    { "name": "Research", "link": "https://discover.research.utoronto.ca/12137-rhia-catapano/publications", "newTab": true },
+    { "name": "CV", "link": "/Catapano_CV_Nov26.pdf", "newTab": true }
+  ]
+}

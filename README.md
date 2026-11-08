@@ -1,50 +1,31 @@
-# Readme
+# rhiacatapano.com
 
+Personal website, built with [Eleventy](https://www.11ty.dev/) and published to GitHub Pages
+by the workflow in `.github/workflows/deploy.yml` whenever `master` changes.
 
-To edit the website:
+## Where things live
 
-If you have deleted the folder containing the website:
+| What | File |
+|---|---|
+| Bio text and photo | `src/index.md` |
+| Site title, description, nav links (Research, CV) | `src/_data/site.json` |
+| Page structure (header, footer, meta tags) | `src/_includes/layout.njk` |
+| Colors, fonts, spacing, mobile layout | `src/css/style.css` |
+| Profile photo (full-size original) | `src/img/rhia_pro.jpg` |
+| CV, favicon, custom domain | `src/Catapano_CV_*.pdf`, `src/rhia_favicon.ico`, `src/CNAME` |
 
-1. Open a terminal (`cmd` + `space`, "terminal")
-2. Navigate to where you want to save the website:
-1. Use `ls` to see whats in your current directory
-2. us `cd directory_name` to change to the directory
-3.  and then use the command:
+The photo is automatically resized and compressed (AVIF/WebP/JPEG) on every build, so
+to change it just replace `src/img/rhia_pro.jpg` with any large photo.
+The footer year updates itself.
 
-```
-git clone https://github.com/catapano/catapano.github.io.git
-```
+## Previewing locally
 
-This will download the website. You can then use
-
-```
-cd catapano.github.io
-```
-
-to enter the directory.
-
-### Making Changes 
-
-You can now make any changes you wish to the .md files. Do not edit files in the `_site` directory, as they are automatically generated. (When it says lots of scary text just ignore it).
-
-Once your changes are complete, save all of the files you modified, and then run this series of commands:
+Requires Node.js 22+.
 
 ```
-git add .
-git commit -m "Add a message here describing what you did"
-git push origin master
+npm install
+npm start
 ```
 
-The changes will upload to github, and should be live in a few minutes.
-
-### Viewing the Website Locally
-
-If you wand to see how your changes impact the website before it goes online, use terminal to enter the directory and then run:
-
-```
-bundle exec jekyll serve
-```
-
-Once that command is running open a browser and navigate to `localhost:4000`
-
-Any changes you make to files should update immediately upon refresh.
+Then open http://localhost:8080. `npm run build` writes the finished site to `_site/`
+(which is not committed).

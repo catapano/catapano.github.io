@@ -1,0 +1,118 @@
+/* Colors and sizes */
+:root {
+  --accent: #ff0f00;
+  --text-heading: #272727;
+  --photo-size: 240px;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0;
+  height: 100%;
+  font-family: "Calibri", sans-serif;
+  font-size: 1em;
+}
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.wrapper {
+  min-height: 100%;
+}
+.container {
+  max-width: 700px;
+  margin: auto;
+}
+
+/* Header: name on the left, links on the right */
+.navbar {
+  padding: 50px 0;
+}
+.content {
+  clear: both;
+}
+#author-name {
+  float: left;
+  font-size: 30px;
+  color: var(--text-heading);
+}
+#navlist {
+  float: right;
+  margin: 0 0 0 20px;
+  padding: 5px 0;
+  list-style: none;
+}
+#navlist li {
+  float: left;
+  margin: 0 5px 0 0;
+}
+
+/* Profile photo */
+.profile-picture {
+  float: right;
+  width: var(--photo-size);
+  height: var(--photo-size);
+  margin: 0 0 15px 15px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  margin: 1em 0 10px;
+}
+
+/* Tablet */
+@media (max-width: 800px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+/* Phone: stack name, links and photo; let text use the full width */
+@media (max-width: 650px) {
+  .container {
+    max-width: none;
+    padding: 0 20px;
+  }
+  .navbar {
+    padding: 40px 20px 10px;
+    text-align: center;
+  }
+  #author-name,
+  #navlist,
+  #navlist li {
+    float: none;
+  }
+  #navlist {
+    margin: 0;
+    padding: 10px 0;
+  }
+  #navlist li {
+    display: inline;
+    margin: 0;
+  }
+  .profile-picture {
+    float: none;
+    display: block;
+    --photo-size: 180px;
+    margin: 0.5em auto 0;
+  }
+  .content {
+    line-height: 1.5;
+  }
+}

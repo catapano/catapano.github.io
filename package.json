@@ -1,0 +1,13 @@
+{
+  "name": "rhiacatapano.com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.8",
+    "@11ty/eleventy-img": "7.1.1"
+  }
+}
