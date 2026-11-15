@@ -12,7 +12,6 @@ export default function (eleventyConfig) {
     formats: ["avif", "webp", "jpeg"],
     widths: [180, 240, 360, 480],
     urlPath: "/img/",
-    outputDir: "_site/img/",
     sharpJpegOptions: { quality: 80, progressive: true },
     sharpWebpOptions: { quality: 80 },
     sharpAvifOptions: { quality: 60 },
