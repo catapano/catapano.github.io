@@ -6,6 +6,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/*.pdf");
   eleventyConfig.addPassthroughCopy("src/*.ico");
   eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/fonts");
 
   // Turns every <img> into a <picture> with small, compressed AVIF/WebP/JPEG versions.
   eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
