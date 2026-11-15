@@ -1,3 +1,5 @@
+import { createHash } from "node:crypto";
+import { readFileSync } from "node:fs";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 export default function (eleventyConfig) {
@@ -19,6 +21,13 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addGlobalData("year", () => new Date().getFullYear());
+
+  // Versioned asset URLs (/css/style.css?v=abc123) so browsers never pair a
+  // fresh page with a stale cached stylesheet after a deploy.
+  eleventyConfig.addFilter("versioned", (url) => {
+    const hash = createHash("md5").update(readFileSync(`src${url}`)).digest("hex").slice(0, 10);
+    return `${url}?v=${hash}`;
+  });
 }
 
 export const config = {
